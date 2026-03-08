@@ -9,3 +9,9 @@ if num % 2 == 0:
     num = "even"
 else:    num = "odd"
 print(num)
+
+#print assending oer number
+a = 10 , 12 , 5 , 8
+print(sorted(a))
+if a == sorted(a):
+    print("assending order")
